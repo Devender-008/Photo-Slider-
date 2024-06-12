@@ -11,7 +11,7 @@ Photo Slider is a simple image carousel with hover effects built using HTML, CSS
 
 ## Preview
 
-![https://devender-008.github.io/Photo-Slider-/](https://devender-008.github.io/Photo-Slider-/)
+[https://devender-008.github.io/Photo-Slider-/](https://devender-008.github.io/Photo-Slider-/)
 
 ## Getting Started
 
