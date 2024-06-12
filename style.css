@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    position: relative; /* Required for positioning the buttons */
+    background-color: rgb(203, 179, 223);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.carousel {
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: calc(100% * 3 / 3);
+}
+
+.carousel-item {
+    flex: 0 0 33.33%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.1);
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
